@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import carteiras from "./investimentProfileContet";
 import GraphProfile from "../graph/graphProfile";
 import profileDescriptions from "./profileDescriptions";
-import { useSimulatorContext } from "../../../../contexts/simulatorcontext/simulatorcontext";
+import { useSimulatorContext } from "../../../../contexts/simulatorcontext/simulatorContext";
 
 function InvestimentProfile() {
     const { selectedIndex, amount } = useSimulatorContext();

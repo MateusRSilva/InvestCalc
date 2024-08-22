@@ -10,7 +10,7 @@ import Snackbar from '@mui/material/Snackbar';
 import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Stage from '../stepper/steppe';
-import { useSimulatorContext } from '../../../contexts/simulatorcontext/simulatorcontext';
+import { useSimulatorContext } from '../../../contexts/simulatorcontext/simulatorContext';
 
 function Information() {
     const { amount, setAmount, name, setName, years, setYears } = useSimulatorContext();

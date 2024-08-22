@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { useNavigate } from 'react-router-dom';
 import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
-import { useSimulatorContext } from '../../contexts/simulatorcontext/simulatorcontext';
+import { useSimulatorContext } from '../../contexts/simulatorcontext/simulatorContext';
 
 const pages = ['Simulator'];
 

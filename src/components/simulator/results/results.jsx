@@ -7,7 +7,7 @@ import InvestimentProfile from "./investimentProfile/investimentProfile";
 import LoopIcon from '@mui/icons-material/Loop';
 import { useNavigate } from "react-router-dom";
 import Stage from "../stepper/steppe";
-import { useSimulatorContext } from "../../../contexts/simulatorcontext/simulatorcontext";
+import { useSimulatorContext } from "../../../contexts/simulatorcontext/simulatorContext";
 import FAQContainer from "../../faq/faqContainer";
 
 

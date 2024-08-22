@@ -6,7 +6,7 @@ import { styled } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
 import options from './options';
 import Stage from '../stepper/steppe';
-import { useSimulatorContext } from '../../../contexts/simulatorcontext/simulatorcontext';
+import { useSimulatorContext } from '../../../contexts/simulatorcontext/simulatorContext';
 
 const BootstrapButton = styled(Button)({
     marginBottom: '0.625rem',
