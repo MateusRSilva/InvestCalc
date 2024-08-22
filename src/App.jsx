@@ -1,5 +1,5 @@
 import './App.css';
-import { SimulatorContext } from './contexts/simulatorcontext/simulatorcontext';
+import  SimulatorContext from './contexts/simulatorcontext/simulatorcontext';
 import SimulatorProvide from './contexts/simulatorcontext/simulatorPovider';
 import NavRoutes from './routes/navRoutes';
 
