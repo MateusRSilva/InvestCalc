@@ -43,3 +43,5 @@ export function SimulatorContext({ children }) {
 export function useSimulatorContext() {
   return useContext(ThemeContext);
 }
+
+export default SimulatorContext; // Add this line
