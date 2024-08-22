@@ -1,0 +1,30 @@
+body {
+    background-image: url('/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: auto; /* Adiciona a barra de rolagem quando necessário */
+}
+/* Estiliza a barra de rolagem para WebKit browsers (Chrome) */
+::-webkit-scrollbar {
+    width: 7px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Cor do trilho */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Cor do "polegar" da barra de rolagem */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cor do "polegar" quando passa o mouse */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+/* styles.css */
