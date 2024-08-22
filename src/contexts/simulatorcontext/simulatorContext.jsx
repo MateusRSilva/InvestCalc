@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 // Criar o Contexto
 const ThemeContext = createContext();
 
-export function SimulatorContext({ children }) {
+function SimulatorContext({ children }) {
   const [amount, setAmount] = useState(() => {
     return sessionStorage.getItem('amount') || '0,00';
   });
